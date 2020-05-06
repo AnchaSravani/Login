@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation :" duration-ms="45393" started-at="2020-05-06T18:03:44Z" finished-at="2020-05-06T18:04:30Z">
+    <groups>
+    </groups>
+    <test name="sampletestName" duration-ms="45393" started-at="2020-05-06T18:03:44Z" finished-at="2020-05-06T18:04:30Z">
+      <class name="Scenarios.VerifyErrorMessages">
+        <test-method status="PASS" signature="initalise()[pri:0, instance:Scenarios.VerifyErrorMessages@4411d970]" name="initalise" is-config="true" duration-ms="22" started-at="2020-05-06T23:33:44Z" finished-at="2020-05-06T23:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initalise -->
+        <test-method status="PASS" signature="VerifyErrorMessagesForMandatoryFields()[pri:1, instance:Scenarios.VerifyErrorMessages@4411d970]" name="VerifyErrorMessagesForMandatoryFields" duration-ms="22256" started-at="2020-05-06T23:33:44Z" description="Verify Error Messages for Mandatory Fields" finished-at="2020-05-06T23:34:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyErrorMessagesForMandatoryFields -->
+      </class> <!-- Scenarios.VerifyErrorMessages -->
+      <class name="Scenarios.CreateAnAccount">
+        <test-method status="PASS" signature="CreateAnAccount()[pri:1, instance:Scenarios.CreateAnAccount@6442b0a6]" name="CreateAnAccount" duration-ms="23067" started-at="2020-05-06T23:34:06Z" description="Create an account" finished-at="2020-05-06T23:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAnAccount -->
+      </class> <!-- Scenarios.CreateAnAccount -->
+    </test> <!-- sampletestName -->
+  </suite> <!-- Automation : -->
+</testng-results>
